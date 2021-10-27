@@ -1,0 +1,77 @@
+PODS:
+  - Alertift (4.0)
+  - AmazonFreeRTOS (0.9.6):
+    - AWSIoT
+    - AWSMobileClient
+    - CBORSwift
+  - AWSAuthCore (2.9.4):
+    - AWSCore (= 2.9.4)
+  - AWSAuthUI (2.9.4):
+    - AWSAuthCore (= 2.9.4)
+    - AWSCore (= 2.9.4)
+  - AWSCognitoIdentityProvider (2.9.4):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.9.4)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.9.4)
+  - AWSIoT (2.9.4):
+    - AWSCore (= 2.9.4)
+  - AWSMobileClient (2.9.4):
+    - AWSAuthCore (= 2.9.4)
+    - AWSCognitoIdentityProvider (= 2.9.4)
+  - AWSUserPoolsSignIn (2.9.4):
+    - AWSAuthCore (= 2.9.4)
+    - AWSCognitoIdentityProvider (= 2.9.4)
+  - CBORSwift (1.2.0)
+  - LicensePlist (2.4.0)
+  - SwiftFormat/CLI (0.40.4)
+  - SwiftLint (0.31.0)
+
+DEPENDENCIES:
+  - Alertift
+  - AmazonFreeRTOS (from `../../`)
+  - AWSAuthUI
+  - AWSUserPoolsSignIn
+  - LicensePlist
+  - SwiftFormat/CLI
+  - SwiftLint
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alertift
+    - AWSAuthCore
+    - AWSAuthUI
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSIoT
+    - AWSMobileClient
+    - AWSUserPoolsSignIn
+    - CBORSwift
+    - LicensePlist
+    - SwiftFormat
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  AmazonFreeRTOS:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  Alertift: 393ace2617e96e95b4e85c88e80a85bf2d85c698
+  AmazonFreeRTOS: cb6e18c695132fa99cf3138921c7d820c80b5b42
+  AWSAuthCore: 5509db7bfba74bdbc45cdb778d12560ad407d06c
+  AWSAuthUI: 5bd038e4fce5386d754ec41a392f6ed1bdde7f71
+  AWSCognitoIdentityProvider: b90896ca0b8f3963a1b698f458ff441f21d26142
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: 8539eaa1d687d50b6b127db5cb600e4c6b37cd4e
+  AWSIoT: ea55089a5873e9e3cadc26ec4696f51afbf5ca9b
+  AWSMobileClient: 689440f96995ab33b9dabd2a72ecf3c8059259a9
+  AWSUserPoolsSignIn: 2fce0095f0f8b5fddf6fd6a3f6e5ccd966f2555e
+  CBORSwift: 977f597254ee0d89cf343e9d058b31a4902203a8
+  LicensePlist: 1c75db690766a9002199c8d56bb32acad7e4fc17
+  SwiftFormat: cc36377840cffa5d0634782875dccf34dc02ff39
+  SwiftLint: 7a0227733d786395817373b2d0ca799fd0093ff3
+
+PODFILE CHECKSUM: e5d25abd480071b957ac2885e9d81d57415d0afe
+
+COCOAPODS: 1.6.1
